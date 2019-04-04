@@ -2,44 +2,23 @@
 
 <head>
     
-    <title>Javascript</title>
+    <title>Reaction Timer</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
     
 <body>
     
-    <p id="text">Hello World!</p>
+    <h1>Test your Reactions!</h1>
     
-    <button id="mybutton">Change text</button>
+    <p>Click on the boxes and circles as quickly as you can</p>
     
-    <p id="secondParagraph">Javascript is ...</p>
+    <p class="bold">Your time: <span id="timeTaken"></span></p>
     
-    <button id="secondbutton">Append text</button>
+    <div id="shape"></div>
     
-    <p id="emptyParagraph"></p>
-    
-    <button id="createParagraph">Create Text</button>
-    
-    <script type="text/javascript">
-        
-        document.getElementById("mybutton").onclick = function() {
-            document.getElementById("text").innerHTML = "Hello Patrick!";
-        
-        }
-        
-        document.getElementById("secondbutton").onclick = function() {
-            document.getElementById("secondParagraph").innerHTML = "I think " +  document.getElementById("secondParagraph").innerHTML + "awesome!";
-        
-        }
-        
-        document.getElementById("createParagraph").onclick = function() {
-            
-            document.getElementById("emptyParagraph").innerHTML = "<h1>Hi there!</h1>";
-            
-        }
-        
-    
-    </script>
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 
